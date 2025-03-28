@@ -50,7 +50,7 @@ const Navbar:React.FC = () => {
         }
     };
      return (
-        <AppBar position="fixed" sx={{ backgroundColor: 'rgb(34, 175, 222)' }}>
+        <AppBar position="fixed" sx={{ backgroundColor: 'rgb(12, 12, 12)' }}>
             <Toolbar>
                 <Typography variant="h6" component="div">
                     Movie App
