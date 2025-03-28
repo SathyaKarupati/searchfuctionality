@@ -50,10 +50,10 @@ const Moviecard: React.FC<MovieCardProps> = ({ movie }) => {
     </Typography> 
     <Typography
           variant="body2"
-          color={movie.vote_average ? "primary" : "text.secondary"}
+          color={movie.Vote_average ? "primary" : "text.secondary"}
           sx={{ fontWeight: "medium" }}
         >
-          Rating: {movie.vote_average ? movie.vote_average.toFixed(1) : "N/A"}{" "}
+          Rating: {movie.Vote_average ? movie.Vote_average.toFixed(1) : "N/A"}{" "}
           / 10
         </Typography>
 </CardContent> 
